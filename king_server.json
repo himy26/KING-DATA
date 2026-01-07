@@ -1,0 +1,35 @@
+{
+  "server_info": {
+    "name": "KING GENIUS V12 CLOUD",
+    "developer": "MOHAMED HASSAN (LEVANTI)",
+    "dedication": "OLA & MY PRINCESS",
+    "version": "12.0.1",
+    "last_update": "2026-01-07"
+  },
+  "database": {
+    "SAMSUNG": [
+      {"model": "Galaxy S24 Ultra", "id": "SM-S928B", "frp": "adb_v16_bypass", "imei": "repair_qcom_v4", "boot": "unl_bl_v3"},
+      {"model": "Galaxy Z Fold 6", "id": "SM-F956B", "frp": "adb_v16_bypass", "imei": "repair_qcom_v4", "boot": "unl_bl_v3"},
+      {"model": "Galaxy A55 5G", "id": "SM-A556B", "frp": "exy_v16_frp", "imei": "repair_exy_v5", "boot": "unl_bl_v3"},
+      {"model": "Galaxy A35 5G", "id": "SM-A356B", "frp": "exy_v16_frp", "imei": "repair_exy_v5", "boot": "unl_bl_v3"},
+      {"model": "Galaxy S23 FE", "id": "SM-S711B", "frp": "adb_v15_gen", "imei": "repair_exy_v4", "boot": "unl_bl_v2"},
+      {"model": "Galaxy M54 5G", "id": "SM-M546B", "frp": "mtk_auth_v2", "imei": "mtk_repair_v5", "boot": "unl_bl_v2"},
+      {"model": "Galaxy A15 4G/5G", "id": "SM-A155F", "frp": "mtk_auth_v2", "imei": "mtk_repair_v5", "boot": "unl_bl_v2"}
+    ],
+    "HUAWEI": [
+      {"model": "Pura 70 Ultra", "id": "HBP-LX9", "frp": "hms_bypass_v5", "imei": "hisi_repair_v9", "boot": "unl_hisi_v2"},
+      {"model": "Mate 60 Pro", "id": "ALN-AL00", "frp": "hms_bypass_v5", "imei": "hisi_repair_v9", "boot": "unl_hisi_v2"},
+      {"model": "Nova 12i", "id": "CTR-LX1", "frp": "hms_bypass_v4", "imei": "hisi_repair_v8", "boot": "unl_hisi_v2"}
+    ],
+    "XIAOMI": [
+      {"model": "Xiaomi 14 Ultra", "id": "24030PN60G", "frp": "hyper_os_v16", "imei": "qcom_diag_v6", "boot": "mi_unlock_v5"},
+      {"model": "Redmi Note 13 Pro+", "id": "23090RA98G", "frp": "mtk_hyper_v2", "imei": "mtk_repair_v9", "boot": "mi_unlock_v5"},
+      {"model": "Poco F6 Pro", "id": "23113RKC6G", "frp": "hyper_os_v16", "imei": "qcom_diag_v6", "boot": "mi_unlock_v5"}
+    ]
+  },
+  "ai_scripts": {
+    "universal_frp": "adb shell am start -n com.google.android.gsf.login/",
+    "fastboot_unlock": "fastboot oem unlock",
+    "fix_logo_2026": "fastboot flash splash splash_img_v16.img"
+  }
+}
