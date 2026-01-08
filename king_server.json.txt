@@ -1,0 +1,35 @@
+{
+  "server_info": {
+    "developer": "MOHAMED HASSAN",
+    "dedication": "OLA MATAWIE",
+    "version": "12.0.1"
+  },
+  "database": {
+    "SAMSUNG": [
+      {"model": "Galaxy S24 Ultra", "id": "SM-S928B", "frp": "adb_v16_bypass", "imei": "repair_qcom_v4", "boot": "unl_bl_v3"},
+      {"model": "Galaxy A55 5G", "id": "SM-A556B", "frp": "exy_v16_frp", "imei": "repair_exy_v5", "boot": "unl_bl_v3"}
+    ],
+    "HUAWEI & HONOR": [
+      {"model": "Pura 70 Ultra", "id": "HBP-LX9", "frp": "hms_bypass_v5", "imei": "hisi_repair_v9", "boot": "unl_hisi_v2"},
+      {"model": "Honor Magic 6 Pro", "id": "BVL-AN16", "frp": "magic_os_8", "imei": "qcom_repair_v7", "boot": "unl_honor"}
+    ],
+    "XIAOMI & POCO": [
+      {"model": "Xiaomi 14 Ultra", "id": "24030PN60G", "frp": "hyper_os_v16", "imei": "qcom_diag_v6", "boot": "mi_unlock_v5"},
+      {"model": "Poco X6 Pro", "id": "2311DRK48G", "frp": "mtk_hyper_v2", "imei": "mtk_repair_v9", "boot": "mi_unlock_v5"}
+    ],
+    "VIVO & TECNO & INFINIX": [
+      {"model": "Vivo X100 Pro", "id": "V2309", "frp": "funtouch_16", "imei": "mtk_v10_rep", "boot": "vivo_unl"},
+      {"model": "Tecno Camon 30", "id": "CL9", "frp": "mtk_auth_v2", "imei": "mtk_repair_v5", "boot": "tecno_unl"},
+      {"model": "Infinix Note 40", "id": "X6850", "frp": "mtk_auth_v2", "imei": "mtk_repair_v5", "boot": "inf_unl"}
+    ],
+    "OPPO & REALME": [
+      {"model": "Oppo Find X7 Ultra", "id": "PHY110", "frp": "oppo_ai_v16", "imei": "qcom_repair_v6", "boot": "oppo_unl"},
+      {"model": "Realme 12 Pro+", "id": "RMX3840", "frp": "realme_auth_v2", "imei": "qcom_repair_v6", "boot": "realme_unl"}
+    ],
+    "CHIPSET (CPUs)": [
+      {"model": "Qualcomm Snapdragon", "id": "QCOM-GEN3", "frp": "edl_auth_v2", "imei": "diag_v6_rep", "boot": "edl_unl"},
+      {"model": "MediaTek Dimensity", "id": "MTK-9300", "frp": "brom_auth_v3", "imei": "brom_repair_v2", "boot": "brom_unl"},
+      {"model": "Unisoc & HiSilicon", "id": "SPD-KIRIN", "frp": "test_point_v4", "imei": "diag_v2_rep", "boot": "auth_unl"}
+    ]
+  }
+}
