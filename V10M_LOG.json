@@ -1,9 +1,7 @@
 {
-    "project": "V10M-KING-GENIUS-GALAXY",
+    "operation": "V10M_KING1",
     "authority": "King Mohamed Hassan",
-    "partner": "Lady Ola (Um Malek)",
-    "timestamp": "2026-02-23 05:57:27",
+    "partner": "Lady Ola",
     "total_tokens": 1500000,
-    "status": "AUTOMATED_THREADING_ACTIVE",
-    "engine_version": "V10M_KING1"
+    "timestamp": "05:59:33"
 }
